@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env*
+!.env.example
+*.tsbuildinfo
+.local/
+*.sqlite*
+
+.local-simple/
+dist-simple/
+coverage-*/
+playwright-report/
+test-results/
+work/

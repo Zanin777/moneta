@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", sans-serif;
+}
+
+body { margin: 0; background: #f4f6f3; color: #1c302c; }
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+input, select { border: 1px solid #cbd5ce; border-radius: 10px; padding: 12px; background: white; width: 100%; }
+:focus-visible { outline: 3px solid #329a7f; outline-offset: 3px; }
+button:disabled { cursor: wait; opacity: .6; }
